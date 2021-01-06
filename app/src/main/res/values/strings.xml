@@ -7,4 +7,37 @@
 
     <string name="key_use_auto_save">AUTO_SAVE</string>
     <string name="title_use_auto_save">Use Auto-Save</string>
+
+    <string name="info_title">How to Play</string>
+    <string name="fab">FAB</string>
+    <string name="correct_message">Good Job! Onto the next question</string>
+    <string name="incorrect_answer_message">Wrong! Game over. \nPress New Game to play again</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="question_goes_here">Game Over Press New Game to Play Again</string>
+    <string name="new_game">New Game</string>
+    <string name="next_question">Next Question</string>
+
+    <string name="auto_save_key">Auto-Save</string>
+    <string name="auto_save_off">On exit, the game in progress will not be saved</string>
+    <string name="auto_save_on">On exit, the game in progress will be saved</string>
+    <string name="auto_save_title">Auto-Save Game on Exit</string>
+
+    <string name="statistics">View Statistics</string>
+
+    <string name="about">About</string>
+    <string name="rules">The object of this game is to answer all the questions correctly.
+        \n\nIf a single question is answered incorrectly, it is game over.</string>
+    <string name="reset_stats">Reset Stats</string>
+    <string name="games_played">Games Played:</string>
+    <string name="percent_won">Percent Won</string>
+    <string name="games_won">Games Won</string>
+    <string name="games_lost">Games Lost</string>
+    <string name="updated_score">Score: </string>
+    <string name="score_save_state">Score</string>
+    <string name="total_games_save_state">Total Games Played</string>
+    <string name="games_won_save_state">Games Won</string>
+    <string name="games_lost_save_state">Games lost</string>
 </resources>

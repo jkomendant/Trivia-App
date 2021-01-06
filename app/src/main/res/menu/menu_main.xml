@@ -2,15 +2,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.triviaapp.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/new_game"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/new_game"
+        app:showAsAction="ifRoom|withText" />
 
     <item
         android:id="@+id/action_statistics"
+        android:icon="@drawable/ic_outline_list_24"
         android:orderInCategory="100"
-        android:title="Statistics"
-        app:showAsAction="never"/>
+        android:title="@string/statistics"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/action_toggle_auto_save"
+        android:checkable="true"
+        android:title="@string/title_use_auto_save"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reset_stats"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/reset_stats"
+        app:showAsAction="never" />
+
+
 </menu>
